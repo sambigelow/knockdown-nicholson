@@ -8,7 +8,7 @@ img {
   width: 100%;
 }
 
-article {
+.container {
   max-width: 70ch;
   margin: 0 auto;
   margin-bottom: 3rem;
@@ -29,4 +29,19 @@ figcaption {
   display: flex;
   flex-direction: column;
   gap: 2.25rem;
+}
+
+.disclaimer {
+  background-color: #eee;
+  font-style: italic;
+  font-size: 12px;
+  padding: 0.5rem 1rem;
+}
+
+.disclaimer * {
+  margin: 0;
+}
+
+.disclaimer h2 {
+  font-size: 12px;
 }
