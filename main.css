@@ -1,0 +1,32 @@
+body {
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+article {
+  max-width: 70ch;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+figure {
+  background-color: #eee;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 2.75rem;
+}
+
+figcaption {
+  padding: 1rem 1.25rem;
+}
+
+.cut-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
+}
